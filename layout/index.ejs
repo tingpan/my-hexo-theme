@@ -1,5 +1,5 @@
-<% page.posts.each(function(item){ %>
-  <%- partial('_partial/article', {item: item, index: true}) %>
-<% }); %>
-
+---
+layout: _layouts/page.ejs
+---
+<%- partial('_partial/archive', {pagination: config.archive}) %>
 <%- partial('_partial/pagination') %>

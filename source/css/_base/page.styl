@@ -1,0 +1,57 @@
+page-background = #437675
+.main-container
+  .main-right-side
+    width 60%
+    padding 120px 50px 0 75px
+    box-sizing border-box
+
+  .main-left-side
+    position fixed
+    width 40%
+    background-color page-background
+    height 100%
+    overflow hidden
+    box-sizing border-box
+
+    .slides
+      padding-left 80px
+
+    img.photo
+      height 100%
+      opacity 0.8
+
+    .info
+      margin-top: 35px
+      font-family font-serif
+      cursor default
+
+      .name
+        width 183px
+        text-align center
+        padding 10px 0
+        display inline-block
+        font-size 48px
+        letter-spacing: 15px
+        color page-background
+        background-color rgba(248,248,248,.7)
+
+      .subtitle
+        color #E9E9E9
+        margin 3px 0 25px 0
+        font-size 16px
+        letter-spacing: 2.5px
+
+      .describe
+        color #E9E9E9
+        width 80%
+        p
+          margin 16px 0
+          font-size 16px
+          line-height 1.5
+          text-align: justify
+          text-justify: inter-word
+          position relative
+          left 0
+          transition(all 0.5s ease)
+          &:hover
+            left 10px

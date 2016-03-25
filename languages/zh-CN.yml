@@ -10,3 +10,7 @@ archive_a: 归档
 archive_b: 归档：%s
 page: 第 %d 页
 recent_posts: 最新文章
+name: 名字
+subtitle: 一个简短的描述
+describ1: 一句总觉
+describ2: 几句补充
